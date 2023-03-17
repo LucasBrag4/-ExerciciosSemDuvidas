@@ -78,5 +78,10 @@ public class CadastrarAdvogados {
         System.out.println(adv8.getContato());
         System.out.println(adv8.getEndereco());
         System.out.println(adv8.getAnos());
+        
+        System.out.println("=========================================================================================================================="); 
+        System.out.println("" + adv6.getNome() + ", " + adv6.getFuncao() + ", " + adv6.getContato() + ", " + adv6.getEndereco() + ", " + adv6.getAnos());
+        System.out.println("" + adv7.getNome() + ", " + adv7.getFuncao() + ", " + adv7.getContato() + ", " + adv7.getEndereco() + ", " + adv7.getAnos());
+        System.out.println("" + adv8.getNome() + ", " + adv8.getFuncao() + ", " + adv8.getContato() + ", " + adv8.getEndereco() + ", " + adv8.getAnos());
     }
 }
