@@ -16,12 +16,12 @@ public class CadastrarAdvogados {
     public static void main(String[] args) {
         privateAdvogado adv1 = new privateAdvogado("João", "Criminal", 999945645, "Avenida Brasil", 10);
         privateAdvogado adv2 = new privateAdvogado("Maria", "Aposentadoria", 98514549, "Avenida das pombas", 6);
-        privateAdvogado adv3 = new privateAdvogado("Anderso", "Pensionista", 88564121, "Avenida das pombas", 2);
-        privateAdvogado adv4 = new privateAdvogado("Andresa", "Criminal", 45216587, "Avenida das pombas", 4);
+        privateAdvogado adv3 = new privateAdvogado("Anderso", "Pensionista", 88564121, "Rua Barao do Rio Branco", 2);
+        privateAdvogado adv4 = new privateAdvogado("Andresa", "Criminal", 45216587, "Rua Barao do Cerro Azul", 4);
         privateAdvogado adv5 = new privateAdvogado("Caio", "Conjugal", 98231456, "Avenida das pombas", 8);
-        privateAdvogado adv6 = new privateAdvogado("Gabriel", "Aposentadoria", 99417788, "Avenida das pombas", 12);
-        privateAdvogado adv7 = new privateAdvogado("Lucas", "Criminal", 98321221, "Avenida das pombas", 4);
-        privateAdvogado adv8 = new privateAdvogado("Marcia", "Criminal", 99885144, "Avenida das pombas", 3); 
+        privateAdvogado adv6 = new privateAdvogado("Gabriel", "Aposentadoria", 99417788, "Rua Recife", 12);
+        privateAdvogado adv7 = new privateAdvogado("Lucas", "Criminal", 98321221, "Rua Rio de Janeiro", 4);
+        privateAdvogado adv8 = new privateAdvogado("Marcia", "Criminal", 99885144, "Rua Carlos Gomes", 3); 
         
         System.out.println("===============LISTA DE ADVOGADOS CADASTRADOS==============");
         System.out.println(adv1.getNome());
